@@ -1,10 +1,12 @@
-{{-- <nav x-show="menu" x-cloak class="fixed bg-white w-full left-0 top-70 md:top-0 px-20 pb-20 md:p-0 md:relative md:!block">
-  <ul class="md:flex md:mt-30">
-    <x-menu.item :route="'page.project'" :title="'Projekt'" class="{{ Route::is('page.project') ? 'text-serene' : '' }}" />
-    <x-menu.item :route="'page.living'" :title="'Wohnen'" class="{{ Route::is('page.living') ? 'text-serene' : '' }}" />
-    <x-menu.item :route="'page.business'" :title="'Gewerbe'" class="{{ Route::is('page.business') ? 'text-serene' : '' }}" />
-    <x-menu.item :route="'page.apartments'" :title="'Angebot'" class="{{ Route::is('page.apartments') ? 'text-serene' : '' }}" />
-    <x-menu.item :route="'page.qa'" :title="'Q&A'" class="{{ Route::is('page.qa') ? 'text-serene' : '' }}" />
-    <x-menu.item :route="'page.contact'" :title="'Kontakt'" class="{{ Route::is('page.contact') ? 'text-serene' : '' }}" />
+<nav 
+  x-show="menu" 
+  x-cloak 
+  class="absolute bg-black w-full h-full sm:h-auto sm:max-w-[240px] right-0 top-0 sm:top-60 z-[90] p-10 md:!block">
+  <ul class="flex flex-col gap-y-8">
+    <x-menu.item :route="'page.home'" :title="'Projekt'" active="{{ Route::is('page.home') ? true : false }}" />
+    <x-menu.item :route="'page.location'" :title="'Lage'" active="{{ Route::is('page.location') ? true : false }}" />
+    <x-menu.item :route="'page.living'" :title="'Wohnen'" active="{{ Route::is('page.living') ? true : false }}" />
+    <x-menu.item :route="'page.offer'" :title="'Angebot'" active="{{ Route::is('page.offer') ? true : false }}" />
+    <x-menu.item :route="'page.faq'" :title="'FAQ'" active="{{ Route::is('page.faq') ? true : false }}" />
   </ul>
-</nav> --}}
+</nav>

@@ -48,6 +48,14 @@ p:last-of-type {
   @apply mb-0;
 }
 
+table {
+  @apply mb-16 lg:mb-20;
+}
+
+table th {
+  @apply text-left;
+}
+
 strong {
   @apply font-sans-bold font-bold font-normal;
 }

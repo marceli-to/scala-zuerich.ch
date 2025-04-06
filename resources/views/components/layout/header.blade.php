@@ -2,8 +2,8 @@
 $headerImages = [
   'page.home' => 'scala-hoenggerstrasse-header-global.jpg',
   'page.project' => 'scala-hoenggerstrasse-header-projekt.jpg',
-  'page.location' => 'scala-hoenggerstrasse-header-lage.jpg',
-  'page.living' => 'scala-hoenggerstrasse-header-wohnen.jpg',
+  'page.location' => 'scala-hoenggerstrasse-header-global.jpg',
+  'page.living' => 'scala-hoenggerstrasse-header-global.jpg',
   'page.offer' => 'scala-hoenggerstrasse-header-angebot.jpg',
   'page.faq' => 'scala-hoenggerstrasse-header-faq.jpg',
   'page.disclaimer' => 'scala-hoenggerstrasse-header-global.jpg',
@@ -24,4 +24,6 @@ $headerImage = $headerImages[$currentRoute] ?? 'default-header.jpg';
       <x-icons.logo-scala class="w-auto h-full" />
     </a>
   </x-media.visual>
+  <x-menu.button />
+  <x-menu.wrapper />
 </header>

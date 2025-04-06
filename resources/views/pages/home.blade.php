@@ -1,6 +1,6 @@
 @extends('app')
 @section('content')
-<x-layout.section class="">
+<x-layout.section class="bg-mist">
   <x-layout.inner>
     <div>
       <h1 class="mb-5 lg:mb-10">Stilvoll Wohnen mit Weitblick in Zürich-Wipkingen</h1>

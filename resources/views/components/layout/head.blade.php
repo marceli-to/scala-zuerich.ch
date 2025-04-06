@@ -20,4 +20,4 @@
 @vite('resources/css/app.css')
 @livewireStyles
 </head>
-<body class="antialiased font-sans-regular text-abyss text-base md:text-md tracking-normal leading-[1.35] flex min-h-full flex-col">
+<body class="antialiased font-sans-regular text-abyss text-base md:text-md tracking-normal leading-[1.35] flex min-h-full flex-col" x-data="{ menu: false }">

@@ -16,7 +16,6 @@ use App\Http\Controllers\ApartmentController;
 */
 
 Route::view('/', 'pages.home')->name('page.home');
-Route::view('/projekt', 'pages.project')->name('page.project');
 Route::view('/lage', 'pages.location')->name('page.location');
 Route::view('/wohnen', 'pages.living')->name('page.living');
 Route::view('/angebot', 'pages.offer')->name('page.offer');

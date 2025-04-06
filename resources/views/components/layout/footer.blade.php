@@ -4,7 +4,7 @@
 </x-layout.section>
 @endif
 <footer>
-  <div class="bg-cloud text-sm md:text-base tracking-wider py-10 sm:py-20 lg:py-30 px-15 md:px-25">
+  <div class="bg-cloud text-sm md:text-base tracking-wider py-20 lg:py-30 px-15 md:px-25">
     <x-layout.inner class="flex flex-col sm:flex-row gap-y-20 sm:gap-0 justify-between text-sm md:text-base leading-[1.25]">
       <div>
         <strong>Gfeller Treuhand und Verwaltungs AG</strong><br>
