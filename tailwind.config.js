@@ -8,6 +8,18 @@ export default {
     "./resources/**/*.js",
     "./resources/**/*.vue",
   ],
+
+  safelist: [
+    'bg-white',
+    'bg-mist',
+    'bg-cloud',
+    'before:bg-cloud',
+    'after:bg-cloud',
+    'before:bg-mist',
+    'after:bg-mist',
+    'before:bg-white',
+    'after:bg-white',
+  ],
   
   theme: {
     extend: {
