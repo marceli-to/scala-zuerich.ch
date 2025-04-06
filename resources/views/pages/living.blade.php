@@ -24,7 +24,6 @@
       <h2>Ausbau Wohnungen</h2>
       <div class="md:grid md:grid-cols-12 md:gap-20 lg:gap-40">
         <div class="md:col-span-8">
-
           <x-accordion.wrapper>
             <x-accordion.item index="0" title="Fassade">
               <ul>
@@ -37,34 +36,29 @@
                 <li>Garagentor aus Wellblech, teilweise gelocht, alufarbig</li>
               </ul>
             </x-accordion.item>
-          
             <x-accordion.item index="1" title="Dach">
               <ul>
                 <li>Flachdach, extensiv begrünt / bekiest</li>
               </ul>
             </x-accordion.item>
-          
             <x-accordion.item index="2" title="Fenster">
               <ul>
                 <li>Holz-/Metallfenster, 3-fach Isolierverglasung</li>
                 <li>Aussen: Aluminium natureloxiert</li>
                 <li>Innen: Holz, weiss RAL 9010</li>
               </ul>
-            </x-accordion.item>
-          
+            </x-accordion.item>          
             <x-accordion.item index="3" title="Sonnenschutz">
               <ul>
                 <li>Leichtmetall-Rafflamellen mit Elektroantrieb vor den Fenstern, alufarbig</li>
                 <li>Senkrechtmarkisen auf den Balkonen aus Stoff, silberfarbig</li>
               </ul>
             </x-accordion.item>
-          
             <x-accordion.item index="4" title="Elektroanlagen">
               <ul>
                 <li>Photovoltaikanlage</li>
               </ul>
             </x-accordion.item>
-          
             <x-accordion.item index="5" title="Elektrokomponenten / Multimedia">
               <ul>
                 <li>Elektroanschlüsse gemäss Elektroplan des Fachplaners</li>
@@ -72,8 +66,7 @@
                 <li>Glasfaseranschlüsse in allen Wohn- und Schlafzimmern</li>
                 <li>Gegensprechanlage</li>
               </ul>
-            </x-accordion.item>
-          
+            </x-accodion.item>
             <x-accordion.item index="6" title="Beleuchtung">
               <ul>
                 <li>Leuchten im Eingangsbereich und Wandleuchte in der Küche</li>
@@ -81,7 +74,6 @@
                 <li>Aussenbeleuchtung der Zugänge und des Gartensitzplatzes</li>
               </ul>
             </x-accordion.item>
-          
             <x-accordion.item index="7" title="Heizung / Warmwasser / Kaltwasser">
               <ul>
                 <li>Raumwärme und Warmwasser wird über Erdsonde-Wärmepumpe gedeckt</li>
@@ -89,20 +81,17 @@
                 <li>Individuelle Heizkosten- und Einzelverbrauchsabrechnung</li>
               </ul>
             </x-accordion.item>
-          
             <x-accordion.item index="8" title="Gartenventile">
               <ul>
                 <li>Allgemeine Gartenventile für die Aussenbewässerung EG – 3.OG: 4 Stück</li>
                 <li>Auf Terrassen im 5.–6.OG jeweils 1 Aussenwasserhahn</li>
               </ul>
             </x-accordion.item>
-          
             <x-accordion.item index="9" title="Lüftung">
               <ul>
                 <li>Kompaktlüftungsgeräte mit Wärmerückgewinnung für die zentrale Be- und Entlüftung</li>
               </ul>
             </x-accordion.item>
-          
             <x-accordion.item index="10" title="Nasszellen">
               <ul>
                 <li>Boden: Feinsteinzeug 10x10cm, iron grey, matt</li>
@@ -112,7 +101,6 @@
                 <li>Spiegelschrank mit integrierter Beleuchtung</li>
               </ul>
             </x-accordion.item>
-          
             <x-accordion.item index="11" title="Küche">
               <ul>
                 <li>Front mit Unter- und Oberbauschränken aus Kunstharz beschichtet, weiss</li>
@@ -121,21 +109,18 @@
                 <li>Dampfabzug: Umluft mit Aktivkohlefilter</li>
               </ul>
             </x-accordion.item>
-          
             <x-accordion.item index="12" title="Lift">
               <ul>
                 <li>2 Personenaufzüge: 630kg / 8 Personen</li>
                 <li>Kabinengrösse 1.10m x 1.40m x 2.20m, rollstuhlgängig</li>
               </ul>
             </x-accordion.item>
-          
             <x-accordion.item index="13" title="Türen">
               <ul>
                 <li>Raumhohe Wohnungseingangstüren mit 3-Punkt-Sicherheitsverschluss. Verriegelung mit Zylinder und Sicherheitsrosette</li>
                 <li>Gegensprechanlage mit Türöffner</li>
               </ul>
             </x-accordion.item>
-          
             <x-accordion.item index="14" title="Allgemeine Schreinerarbeiten">
               <ul>
                 <li>Einbauschränke-/Garderoben und Putzschränke mit Kunstharz beschichtet, weiss</li>
@@ -143,7 +128,6 @@
                 <li>Fensterbrett bei Fenstern mit Brüstung</li>
               </ul>
             </x-accordion.item>
-          
             <x-accordion.item index="15" title="Bodenbeläge">
               <ul>
                 <li>Treppenhaus: EG und 1.OG Hartbeton und Schmutzschleuse, 1.–6.OG Teppich</li>
@@ -155,7 +139,6 @@
                 <li>Keller-/Nebenräume und Einstellhalle: Hartbeton</li>
               </ul>
             </x-accordion.item>
-          
             <x-accordion.item index="16" title="Innere Malerarbeiten">
               <ul>
                 <li><strong>Treppenhaus</strong>: Decken und Wände aus Sichtbeton (lasiert)</li>
@@ -163,7 +146,6 @@
                 <li><strong>Keller / Nebenräume / Einstellhalle</strong>: Decken Dämmung, Wände Sichtbeton und Dämmung</li>
               </ul>
             </x-accordion.item>
-          
             <x-accordion.item index="17" title="Waschküchen und Trockenräume">
               <ul>
                 <li>2 Trockenräume mit Raumentfeuchter und Wäscheleine</li>
@@ -171,7 +153,6 @@
                 <li>Zusätzlich 1 allgemeine WM/TU im Trocknungsraum, rollstuhlgerecht</li>
               </ul>
             </x-accordion.item>
-          
             <x-accordion.item index="18" title="Keller- / Nebenräume">
               <ul>
                 <li>Jede Wohnung hat ein eigenes Kellerabteil</li>
@@ -179,7 +160,6 @@
                 <li>Kellerabteiltrennwände mit Holzlattenrost</li>
               </ul>
             </x-accordion.item>
-          
             <x-accordion.item index="19" title="Parken">
               <ul>
                 <li>19 Einstellplätze in Tiefgarage, 1 Besucher-PP</li>
@@ -188,7 +168,6 @@
                 <li>2 Besucher-PP Aussen</li>
               </ul>
             </x-accordion.item>
-          
             <x-accordion.item index="20" title="Umgebung">
               <ul>
                 <li>Gemäss Umgebungsplan Landschaftsarchitektur</li>
@@ -198,17 +177,23 @@
               </ul>
             </x-accordion.item>
           </x-accordion.wrapper>
-
+          <div class="mt-20 lg:mt-40">
+            <a  
+              href="/media/downloads/scala-hoenggerstrasse-kurzbaubeschrieb.pdf" 
+              title="Download Kurzbaubeschrieb"
+              target="_blank"
+              class="border border-abyss px-12 pt-7 pb-10 inline-block leading-none w-auto uppercase hover:bg-abyss hover:text-white transition-all">
+              Kurzbaubeschrieb
+            </a>
+          </div>
         </div>
       </div>
     </div>
   </x-layout.inner>
 </x-layout.section>
-<div class="relative aspect-[16/8] md:aspect-[16/6] after:bg-cloud after:block lg:after:block after:w-full after:h-20 2xl:after:h-15 after:top-0 after:left-0 after:absolute after:z-40 before:bg-cloud before:block lg:before:block before:w-[calc((100%_-_1024px)/2)] 2xl:before:w-[calc((100%_-_1152px)/2)] before:h-100 2xl:before:h-100 before:top-0 before:left-0 before:absolute before:z-30">
-  <x-media.visual 
-    :image="'scala-hoenggerstrasse-header-global.jpg'" 
-    theme="bg-cloud"
-    alt="Hönggerstrasse">
-  </x-media.visual>
-</div>
+<x-media.visual 
+  :image="'scala-hoenggerstrasse-header-global.jpg'" 
+  theme="bg-cloud"
+  alt="Wohnen Scala Hönggerstrasse">
+</x-media.visual>
 @endsection

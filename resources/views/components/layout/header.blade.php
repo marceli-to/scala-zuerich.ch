@@ -1,22 +1,22 @@
 @php
-$headerImages = [
+$images = [
   'page.home' => 'scala-hoenggerstrasse-header-global.jpg',
   'page.project' => 'scala-hoenggerstrasse-header-projekt.jpg',
   'page.location' => 'scala-hoenggerstrasse-header-global.jpg',
   'page.living' => 'scala-hoenggerstrasse-header-global.jpg',
-  'page.offer' => 'scala-hoenggerstrasse-header-angebot.jpg',
-  'page.faq' => 'scala-hoenggerstrasse-header-faq.jpg',
+  'page.offer' => 'scala-hoenggerstrasse-header-global.jpg',
+  'page.faq' => 'scala-hoenggerstrasse-header-global.jpg',
   'page.disclaimer' => 'scala-hoenggerstrasse-header-global.jpg',
   'page.imprint' => 'scala-hoenggerstrasse-header-global.jpg',
   'page.privacy' => 'scala-hoenggerstrasse-header-global.jpg',
 ];
 $currentRoute = Route::currentRouteName();
-$headerImage = $headerImages[$currentRoute] ?? 'default-header.jpg';
+$image = $images[$currentRoute] ?? 'scala-hoenggerstrasse-header-global.jpg';
 @endphp
-<header class="relative aspect-[16/8] md:aspect-[16/6] after:bg-white after:block lg:after:block after:w-full after:h-20 2xl:after:h-15 after:top-0 after:left-0 after:absolute after:z-40 before:bg-white before:block lg:before:block before:w-[calc((100%_-_1024px)/2)] 2xl:before:w-[calc((100%_-_1152px)/2)] before:h-100 2xl:before:h-100 before:top-0 before:left-0 before:absolute before:z-30">
+<header>
   <x-media.visual 
-    :image="$headerImage" 
-    alt="Hönggerstrasse">
+    :image="$image" 
+    alt="Scala Hönggerstrasse">
     <a 
       href="{{ route('page.home') }}"
       title="Startseite"
