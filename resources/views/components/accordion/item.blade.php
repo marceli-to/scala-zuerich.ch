@@ -5,8 +5,8 @@
 <div data-accordion-index="{{ $index }}" class="accordeon-item relative">
   <button 
     type="button" 
-    class="w-full text-left border-b-2 border-b-abyss" @click="selected !== {{ $index }} ? selected = {{ $index }} : selected = null;">
-    <div class="flex items-center justify-between pb-10">
+    class="w-full text-left border-b border-b-abyss" @click="selected !== {{ $index }} ? selected = {{ $index }} : selected = null;">
+    <div class="flex items-center justify-between py-10">
       <h3 class="!mb-0">{{ $title }}</h3>
 
       <template x-if="selected !== {{ $index }}">
@@ -27,7 +27,7 @@
     class="relative overflow-hidden max-h-0"
     x-ref="container{{ $index }}"
     x-bind:style="selected == {{ $index }} ? 'max-height: ' + $refs.container{{ $index }}.scrollHeight + 'px;' : ''">
-    <div class="mb-10">
+    <div class="pt-10 pb-20 lg:pt-15 lg:pb-25">
     {{ $slot }}
     </div>
   </div>
