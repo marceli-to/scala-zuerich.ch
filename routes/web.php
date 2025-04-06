@@ -1,8 +1,6 @@
 <?php
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\PageController;
-use App\Http\Controllers\BusinessController;
-use App\Http\Controllers\ApartmentController;
+use App\Http\Controllers\OfferController;
 
 /*
 |--------------------------------------------------------------------------
@@ -18,7 +16,7 @@ use App\Http\Controllers\ApartmentController;
 Route::view('/', 'pages.home')->name('page.home');
 Route::view('/lage', 'pages.location')->name('page.location');
 Route::view('/wohnen', 'pages.living')->name('page.living');
-Route::view('/angebot', 'pages.offer')->name('page.offer');
+Route::get('/angebot', [OfferController::class, 'index'])->name('page.offer');
 Route::view('/faq', 'pages.faq')->name('page.faq');
 Route::view('/disclaimer', 'pages.disclaimer')->name('page.disclaimer');
 Route::view('/impressum', 'pages.imprint')->name('page.imprint');
