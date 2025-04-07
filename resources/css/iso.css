@@ -3,7 +3,7 @@
 }
 
 .iso-cls-4 {
-  @apply font-sans-bold font-bold text-sm
+  @apply font-sans-bold font-bold text-md
 }
 
 .iso-cls-4, .iso-cls-5, .iso-cls-6 {
@@ -11,7 +11,7 @@
 }
 
 .iso-cls-5 {
-  @apply font-sans-regular text-sm
+  @apply font-sans-regular text-md
 }
 
 .iso-cls-7 {
@@ -66,8 +66,7 @@
 }
 
 .iso-cls-6 {
-  font-family: MyriadPro-Regular, 'Myriad Pro';
-  font-size: 12px;
+  @apply font-sans-regular text-md
 }
 
 /* State classes */
