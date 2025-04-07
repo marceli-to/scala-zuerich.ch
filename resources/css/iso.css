@@ -1,0 +1,101 @@
+.iso-cls-0, .iso-cls-1, .iso-cls-2, .iso-cls-3 {
+  fill: none;
+}
+
+.iso-cls-4 {
+  @apply font-sans-bold font-bold text-sm
+}
+
+.iso-cls-4, .iso-cls-5, .iso-cls-6 {
+  fill: #12120d;
+}
+
+.iso-cls-5 {
+  @apply font-sans-regular text-sm
+}
+
+.iso-cls-7 {
+  fill: #e7ecee;
+}
+
+.iso-cls-1 {
+  stroke: #12120d;
+}
+
+.iso-cls-1, .iso-cls-2 {
+  stroke-width: .5966365px;
+}
+
+.iso-cls-8 {
+  stroke-width: .75px;
+}
+
+.iso-cls-8, .iso-cls-9 {
+  fill: #fff;
+  stroke: #060300;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.iso-cls-2, .iso-cls-3 {
+  stroke: #021e24;
+}
+
+.iso-cls-3 {
+  stroke-width: 1.1932731px;
+}
+
+.iso-cls-14 {
+  fill: #021e24;
+}
+
+.iso-cls-15 {
+  opacity: .5;
+}
+
+.iso-cls-9 {
+  stroke-width: 1.0398896px;
+}
+
+.iso-cls-16 {
+  fill: #f2f5f5;
+}
+
+.iso-cls-17 {
+  fill: #c5cfd3;
+}
+
+.iso-cls-6 {
+  font-family: MyriadPro-Regular, 'Myriad Pro';
+  font-size: 12px;
+}
+
+/* State classes */
+.is-active.is-available [class^="iso-cls-"]  {
+  fill: #aabfb5;
+}
+
+.is-active.is-taken [class^="iso-cls-"] {
+  fill: #ab2b40;
+}
+
+[data-object].is-active {
+  @apply !bg-mist;
+}
+
+
+[data-iso]:hover {
+  @apply cursor-pointer;
+}
+
+[data-iso-floor] {
+  @apply transition-transform duration-300;
+}
+
+.is-up {
+  @apply transform -translate-y-[20%] transition-transform duration-300;
+}
+
+.is-down {
+  @apply transform translate-y-[20%] transition-transform duration-300;
+}

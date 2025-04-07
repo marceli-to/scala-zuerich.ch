@@ -11,10 +11,10 @@
       </div>
 
       <div class="md:grid md:grid-cols-12 md:gap-20 lg:gap-40">
-        <div class="md:col-span-6">
-          [iso]
+        <div class="md:col-span-5 lg:col-span-6 sticky top-0 z-40 md:relative md:top-0">
+          <x-apartments.iso class="w-full h-auto md:sticky md:-top-50 block sm:py-[12%] sm:-my-[12%] overflow-visible  bg-white" />
         </div>
-        <div class="md:col-span-6">
+        <div class="md:col-span-7 lg:col-span-6 mt-20 sm:mt-0">
           <h2>Wohnungen</h2>
           <x-apartments.table.table>
             <x-apartments.table.thead />
@@ -25,7 +25,7 @@
                   {{ $apartment['title'] }}
                 </x-apartments.table.tcell>
                 <x-apartments.table.tcell>
-                  {{ $apartment['floor'] }}
+                  {!! str_replace(' ', '&nbsp;', $apartment['floor']) !!}
                 </x-apartments.table.tcell>
                 <x-apartments.table.tcell>
                   {{ $apartment['rooms'] }}

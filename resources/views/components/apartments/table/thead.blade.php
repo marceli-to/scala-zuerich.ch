@@ -1,6 +1,6 @@
 @props(['class' => ''])
-<thead class="border-b-3 border-b-cloud {{ $class ?? '' }}">
-  <tr class="bg-white md:relative md:bg-transparent md:top-0 z-60 [&>th]:py-10 [&>th]:align-bottom [&>th]:pr-10 [&>th]:font-sans-bold [&>th]:font-bold [&>th]:text-sm [&>th]:leading-[1.2]">
+<thead class="border-b-2 sm:border-b-3 border-b-cloud {{ $class ?? '' }}">
+  <tr class="bg-white md:relative md:bg-transparent md:top-0 z-60 [&>th]:py-5 [&>th]:sm:py-10 [&>th]:align-bottom [&>th]:pr-5 [&>th]:sm:pr-10 [&>th]:font-sans-bold [&>th]:font-bold [&>th]:text-xs [&>th]:sm:text-sm [&>th]:leading-[1.2]">
     <th class="text-left">
       Nr.
     </th>
@@ -11,10 +11,13 @@
       Zi.
     </th>
     <th class="text-left">
-      Wohnfläche<br>Netto m<sup>2</sup>
+      <span class="block lg:hidden">Fläche<br>m<sup>2</sup></span>
+      <span class="hidden lg:block">Wohnfläche<br>Netto m<sup>2</sup></span>
     </th>
     <th class="text-left">
-      Balkon-<br>fläche m<sup>2</sup>
+      <span class="block lg:hidden">Balkon<br>m<sup>2</sup></span>
+      <span class="hidden lg:block">Balkon-<br>fläche m<sup>2</sup></span>
+      
     </th>
     <th class="text-left">
       Miete<br>Netto
@@ -23,7 +26,8 @@
       Neben-<br>kosten
     </th>
     <th class="text-center">
-      Grundriss
+      <span class="block lg:hidden">Plan</span>
+      <span class="hidden lg:block">Grundriss</span>
     </th>
     <th class="text-right !pr-0">
       Status

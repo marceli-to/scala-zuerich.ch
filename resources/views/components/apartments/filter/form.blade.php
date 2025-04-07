@@ -1,5 +1,5 @@
 @props(['class' => ''])
-<div class="md:grid md:grid-cols-12 md:gap-20 lg:gap-30 max-w-4xl">
+<div class="flex flex-col gap-y-20 md:grid md:grid-cols-12 md:gap-20 lg:gap-30 max-w-4xl">
 
   <div class="md:col-span-3">
     <x-apartments.filter.item 

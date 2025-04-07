@@ -13,6 +13,6 @@
     data-object-floor="{{ $floor }}"
     data-object-rooms="{{ $rooms }}"
   @endif
-  class="border-b border-b-gray-100 bg-transparent hover:bg-gray-300 hover:bg-opacity-20 !text-sm">
+  class="border-b border-b-mist bg-transparent hover:bg-mist !text-sm">
   {{ $slot }}
 </tr>

@@ -1,7 +1,8 @@
 @import "typo/webfonts.css";
 @import "vendor/mapbox.css";
-@import "vendor/swiper.css";
-@import "vendor/swiper-custom.css";
+@import "iso.css";
+/* @import "vendor/swiper.css";
+@import "vendor/swiper-custom.css"; */
 
 @tailwind base;
 @tailwind components;
