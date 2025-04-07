@@ -1,6 +1,6 @@
 @props(['image', 'alt', 'theme' => 'bg-white'])
 
-<div class="relative aspect-[16/8] md:aspect-[16/7] after:{{ $theme }} before:{{ $theme }} after:content-[''] before:content-[''] after:block lg:after:block before:block lg:before:block after:w-full after:h-25 2xl:after:h-10 after:top-0 after:left-0 after:absolute after:z-40 before:w-[calc((100%_-_1024px)/2)] 2xl:before:w-[calc((100%_-_1152px)/2)] before:h-105 2xl:before:h-100 before:top-0 before:left-0 before:absolute before:z-30">
+<div class="relative aspect-[16/8] md:aspect-[16/7] after:{{ $theme }} before:{{ $theme }} after:content-[''] before:content-[''] after:block lg:after:block before:block lg:before:block after:w-full after:h-25 2xl:after:h-10 after:top-0 after:left-0 after:absolute after:z-40 before:w-[calc((100%_-_1024px)/2)] 2xl:before:w-[calc((100%_-_1152px)/2)] before:h-105 2xl:before:h-110 before:top-0 before:left-0 before:absolute before:z-30">
   
   <img src="/media/img/{{ $image }}" alt="{{ $alt }}" class="block absolute z-10 w-full h-full object-cover" />
 

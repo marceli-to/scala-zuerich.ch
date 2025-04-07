@@ -34,9 +34,10 @@ export default {
         'mist': '#e7eced', // background
         'ember': '#c6413d', // iso, occupied
         'sprout': '#b0c270' // iso, available
+      },
 
-        // 'pearl': '#E6E8E9',
-        // 'steel': '#9AA5A7',
+      borderWidth: {
+        '3': '0.1875rem',
       },
 
       fontFamily: {

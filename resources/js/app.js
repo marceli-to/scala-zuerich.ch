@@ -1,3 +1,4 @@
 import './bootstrap';
 import './modules/maps.js';
-import './modules/swiper.js';
+import './modules/filter.js';
+import './modules/iso.js';

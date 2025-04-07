@@ -21,7 +21,7 @@ $image = $images[$currentRoute] ?? 'scala-hoenggerstrasse-header-global.jpg';
     <a 
       href="{{ route('page.home') }}"
       title="Startseite"
-      class="h-30 sm:h-45 md:h-55 lg:h-60 w-auto absolute left-15 md:left-25 lg:left-15 xl:left-0 top-10 sm:top-15 lg:top-25 2xl:top-20 z-20 block">
+      class="h-30 sm:h-45 md:h-55 lg:h-60 w-auto absolute left-15 md:left-25 lg:left-15 xl:left-0 top-10 sm:top-15 lg:top-25 2xl:top-25 z-20 block">
       <x-icons.logo-scala class="w-auto h-full" />
     </a>
   </x-media.visual>
