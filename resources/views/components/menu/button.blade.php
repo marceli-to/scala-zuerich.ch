@@ -4,7 +4,7 @@
     x-on:click="menu = ! menu" 
     title="Menü anzeigen"
     :class="{ 'is-active': menu === true }"
-    class="fixed sm:!hidden right-15 top-30 z-[100] group flex justify-center items-center text-black w-24 h-20">
+    class="fixed sm:!hidden right-0 top-25 z-[150] group flex justify-start py-20 pl-10 items-center bg-black text-white w-60 h-20">
     <span x-show="menu === false">
       <x-icons.burger class="w-24 h-auto" />
     </span>

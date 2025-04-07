@@ -72,11 +72,11 @@
 
 /* State classes */
 .is-active.is-available [class^="iso-cls-"]  {
-  fill: #aabfb5;
+  @apply fill-sprout;
 }
 
 .is-active.is-taken [class^="iso-cls-"] {
-  fill: #ab2b40;
+  @apply fill-ember;
 }
 
 [data-object].is-active {

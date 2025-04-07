@@ -57,13 +57,41 @@
                   @elseif ($apartment['object_state'] == 'rented')
                     vermietet
                   @else
-                    frei
+                    <a 
+                      href="{{ $apartment["application_form"] }}"
+                      target="_blank"
+                      class="inline-block bg-mist hover:bg-abyss hover:text-white px-5 pt-2 pb-4">
+                      Bewerben
+                    </a>
                   @endif
                 </x-apartments.table.tcell>
               </x-apartments.table.trow>
               @endforeach
             @endif
           </x-apartments.table.table>
+          <div class="text-xs sm:text-sm mt-10">
+            Alle Kosten in CHF
+          </div>
+          <div class="mt-10 lg:mt-20 flex flex-col gap-y-10 lg:gap-y-15">
+            <div>
+              <a 
+              href="/media/downloads/scala-hoenggerstrasse-plaene.pdf"
+              target="_blank"
+              class="bg-mist hover:bg-abyss hover:text-white transition-all uppercase pt-4 pb-6 px-8 min-h-36 leading-none inline-flex w-auto items-center"
+              title="Pläne UG">
+                Pläne UG
+              </a>
+            </div>
+            <div>
+              <a 
+              href="/media/downloads/scala-hoenggerstrasse-umgebungsplan.pdf"
+              target="_blank"
+              class="bg-mist hover:bg-abyss hover:text-white transition-all uppercase pt-4 pb-6 px-8 min-h-36 leading-none inline-flex w-auto items-center"
+              title="Umgebungsplan">
+                Umgebungsplan
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </div>

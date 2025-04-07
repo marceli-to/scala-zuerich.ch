@@ -1,6 +1,6 @@
 @props(['class' => ''])
-<thead class="border-b-2 sm:border-b-3 border-b-cloud {{ $class ?? '' }}">
-  <tr class="bg-white md:relative md:bg-transparent md:top-0 z-60 [&>th]:py-5 [&>th]:sm:py-10 [&>th]:align-bottom [&>th]:pr-5 [&>th]:sm:pr-10 [&>th]:font-sans-bold [&>th]:font-bold [&>th]:text-xs [&>th]:sm:text-sm [&>th]:leading-[1.2]">
+<thead class="border-b-2 sm:border-b-3 border-b-cloud sm:sticky sm:top-0 sm:bg-white sm:z-40 {{ $class ?? '' }}">
+  <tr class="md:top-0 z-60 [&>th]:py-5 [&>th]:sm:py-10 [&>th]:align-bottom [&>th]:pr-5 [&>th]:sm:pr-10 [&>th]:font-sans-bold [&>th]:font-bold [&>th]:text-xs [&>th]:sm:text-sm [&>th]:leading-[1.2]">
     <th class="text-left">
       Nr.
     </th>
@@ -17,7 +17,6 @@
     <th class="text-left">
       <span class="block lg:hidden">Balkon<br>m<sup>2</sup></span>
       <span class="hidden lg:block">Balkon-<br>fläche m<sup>2</sup></span>
-      
     </th>
     <th class="text-left">
       Miete<br>Netto
