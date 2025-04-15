@@ -75,7 +75,7 @@
           <div class="mt-10 lg:mt-20 flex flex-col gap-y-10 lg:gap-y-15">
             <div>
               <a 
-              href="/media/downloads/scala-hoenggerstrasse-plaene.pdf"
+              href="/media/downloads/scala-hoenggerstrasse-kellerabteile.pdf"
               target="_blank"
               class="bg-mist hover:bg-abyss hover:text-white transition-all uppercase pt-4 pb-6 px-8 min-h-36 leading-none inline-flex w-auto items-center"
               title="Pläne UG">

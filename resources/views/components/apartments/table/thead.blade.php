@@ -15,8 +15,8 @@
       <span class="hidden lg:block">Wohnfläche<br>Netto m<sup>2</sup></span>
     </th>
     <th class="text-left">
-      <span class="block lg:hidden">Balkon<br>m<sup>2</sup></span>
-      <span class="hidden lg:block">Balkon-<br>fläche m<sup>2</sup></span>
+      <span class="block lg:hidden">Aussen<br>m<sup>2</sup></span>
+      <span class="hidden lg:block">Aussen-<br>fläche m<sup>2</sup></span>
     </th>
     <th class="text-left">
       Miete<br>Netto

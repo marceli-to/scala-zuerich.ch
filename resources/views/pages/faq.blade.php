@@ -94,9 +94,4 @@
     </div>
   </x-layout.inner>
 </x-layout.section>
-<x-media.visual 
-  :image="'scala-hoenggerstrasse-header-global.jpg'" 
-  theme="bg-mist"
-  alt="Wohnen Scala Hönggerstrasse">
-</x-media.visual>
 @endsection

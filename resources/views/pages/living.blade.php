@@ -5,7 +5,7 @@
   <x-layout.inner>
     <div>
       <h1 class="mb-5 lg:mb-10">
-        Wohnungen
+        Wohnen
       </h1>
       <div class="md:grid md:grid-cols-12 md:gap-20 lg:gap-40 mt-20 lg:mt-40">
         <div class="md:col-span-8">
@@ -191,9 +191,4 @@
     </div>
   </x-layout.inner>
 </x-layout.section>
-<x-media.visual 
-  :image="'scala-hoenggerstrasse-header-global.jpg'" 
-  theme="bg-cloud"
-  alt="Wohnen Scala Hönggerstrasse">
-</x-media.visual>
 @endsection

@@ -27,24 +27,4 @@ $image = $images[$currentRoute] ?? 'scala-hoenggerstrasse-header-global.jpg';
   </x-media.visual>
   <x-menu.button />
   <x-menu.wrapper />
-
 </header>
-{{-- <div class="bg-white/100 sticky top-0 w-full z-[200]">
-  <ul class="flex gap-x-30 h-50 items-center max-w-5xl 2xl:max-w-6xl mx-auto text-lg lg:text-xl">
-    <li>
-      <a href="{{ route('page.home') }}">Projekt</a>
-    </li>
-    <li>
-      <a href="{{ route('page.location') }}">Lage</a>
-    </li>
-    <li>
-      <a href="{{ route('page.living') }}">Wohnen</a>
-    </li>
-    <li>
-      <a href="{{ route('page.offer') }}">Angebot</a>
-    </li>
-    <li>
-      <a href="{{ route('page.faq') }}">FAQ</a>
-    </li>
-  </ul>
-</div> --}}
