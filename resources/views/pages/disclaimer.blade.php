@@ -2,7 +2,7 @@
 @section('seo_title', 'Disclaimer')
 @section('content')
 <x-layout.section>
-  <x-layout.inner>
+  <x-layout.inner class="disclaimer">
     <div>
       <h1>Disclaimer</h1>
       <div class="md:grid md:grid-cols-12 md:gap-20 lg:gap-40">

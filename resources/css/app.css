@@ -33,8 +33,9 @@ strong {
 }
 
 .imprint h2,
-.privacy h2 {
-  @apply text-base lg:text-xl
+.privacy h2,
+.disclaimer h2 {
+  @apply font-sans-bold !font-bold text-base lg:text-xl
 }
 
 .privacy p {

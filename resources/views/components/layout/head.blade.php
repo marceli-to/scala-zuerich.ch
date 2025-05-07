@@ -1,5 +1,9 @@
+@php
+$currentRoute = Route::currentRouteName();
+$bgColor = $currentRoute == 'page.imprint' || $currentRoute == 'page.privacy' || $currentRoute == 'page.disclaimer' ? 'bg-mist' : 'bg-white';
+@endphp
 <!doctype html>
-<html lang="de" class="h-full bg-white scroll-smooth overflow-y-scroll">
+<html lang="de" class="h-full {{ $bgColor }} scroll-smooth overflow-y-scroll">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">

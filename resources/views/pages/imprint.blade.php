@@ -17,6 +17,14 @@
         www.gfeller-treuhand.ch
       </a>
     </p>
+    <h2>Architektur</h2>
+    <p>
+      Manetsch Meyer<br>
+      Architekten AG<br>
+      Seebahnstrasse 85<br>
+      8003 Zürich<br>
+      <a href="https://www.manetschmeyer.ch" target="_blank" rel="noopener" class="hover:underline underline-offset-2 decoration-1">www.manetschmeyer.ch</a>
+    </p>
     <h2>Design und Entwicklung</h2>
     <p>Stoz Werbeagentur AG, Pfäffikon ZH<br><a href="https://www.stoz.ch" target="_blank" rel="noopener" class="hover:underline underline-offset-2 decoration-1">stoz.ch</a></p>
     <h2>Programmierung</h2>

@@ -98,12 +98,12 @@
         </div>
         <div class="md:col-span-5 flex flex-col gap-y-20 lg:gap-y-30 md:mt-7">
           <x-media.picture
-            image="placeholder"
-            alt="">
+            image="scala-hoenggerstrasse-bad"
+            alt="Bad">
           </x-media.picture>
           <x-media.picture
-            image="placeholder"
-            alt="">
+            image="scala-hoenggerstrasse-wohnen-essen-2"
+            alt="Wohnen/Essen">
           </x-media.picture>
         </div>
       </div>

@@ -1,17 +1,14 @@
 @php
 $images = [
-  'page.home' => 'scala-hoenggerstrasse-header-global.jpg',
-  'page.project' => 'scala-hoenggerstrasse-header-projekt.jpg',
-  'page.location' => 'scala-hoenggerstrasse-header-global.jpg',
-  'page.living' => 'scala-hoenggerstrasse-header-global.jpg',
-  'page.offer' => 'scala-hoenggerstrasse-header-global.jpg',
-  'page.faq' => 'scala-hoenggerstrasse-header-global.jpg',
-  'page.disclaimer' => 'scala-hoenggerstrasse-header-global.jpg',
-  'page.imprint' => 'scala-hoenggerstrasse-header-global.jpg',
-  'page.privacy' => 'scala-hoenggerstrasse-header-global.jpg',
+  'page.home' => 'scala-hoenggerstrasse-visual-home',
+  'page.project' => 'scala-hoenggerstrasse-visual-home',
+  'page.location' => 'scala-hoenggerstrasse-visual-lage',
+  'page.living' => 'scala-hoenggerstrasse-visual-wohnen',
+  'page.offer' => 'scala-hoenggerstrasse-visual-home',
+  'page.faq' => 'scala-hoenggerstrasse-visual-faq',
 ];
 $currentRoute = Route::currentRouteName();
-$image = $images[$currentRoute] ?? 'scala-hoenggerstrasse-header-global.jpg';
+$image = $images[$currentRoute] ?? null;
 @endphp
 <header>
   <x-media.visual 
