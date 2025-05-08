@@ -6,6 +6,11 @@
     <picture class="block absolute z-10 w-full h-full object-cover">
 
       <source 
+        srcset="/media/img/{{ $image }}-2xl.avif" 
+        type="image/avif" 
+        media="(min-width: 1680px)">
+
+      <source 
         srcset="/media/img/{{ $image }}-xl.avif" 
         type="image/avif" 
         media="(min-width: 1280px)">
@@ -19,6 +24,11 @@
         srcset="/media/img/{{ $image }}.avif" 
         type="image/avif">
     
+      <source 
+        srcset="/media/img/{{ $image }}-2xl.webp" 
+        type="image/avif" 
+        media="(min-width: 1680px)">
+
       <source 
         srcset="/media/img/{{ $image }}-xl.webp" 
         type="image/avif" 
