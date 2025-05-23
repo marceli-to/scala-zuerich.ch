@@ -11,43 +11,65 @@
           <p>Bitte beachten Sie, dass man sich ausschliesslich online auf die Wohnungen bewerben kann.</p>
           <div class="mt-20 lg:mt-40">
             <x-accordion.wrapper>
-              <x-accordion.item index="0" title="Ist Tierhaltung erlaubt?">
-                <p>Input ZIAG notwendig, Vorschlag GTV: Tierhaltung ist grundsätzlich erlaubt, jedoch muss man folgende Kriterien erfüllen:</p>
+              <x-accordion.item index="0" title="Sind Haustiere erlaubt?">
+                <p>Ohne Zustimmung des Vermieters dürfen Kleintiere wie z.B. Hamster, Zwerghasen, Kanarienvögel und Zierfische in den Wohnungen gehalten werden, soweit sich die Anzahl der Tiere in den üblichen Grenzen hält.</p>
+                <p>Das Halten von grösseren Haustieren wie z.B. Katzen, Hunden, Papageien, Reptilien bedarf der vorgängigen schriftlichen Zustimmung des Vermieters.</p>
+                <p>Die Anbringung von Windschütze, Netze und Katzenleitern in jeglicher Form bedarf die vorherige Bewilligung der Vermieterin.</p>
+                <p>Es wird eine Tierhaltungsvereinbarung mit dem Mieter vereinbart. Für den Fall der Tierhaltung verpflichtet sich der Mieter, eine Versicherung abzuschliessen, welche durch die entsprechenden Tiere verursachte Schäden deckt. Dies gilt auch für Wasserschäden bei Aquarien.</p>
+              </x-accordion.item>
+
+              <x-accordion.item index="1" title="Gibt es eine Sicherheitsleistung (Kaution) und wie hoch ist sie?">
+                <p>Die Sicherheitsleistung beträgt drei Bruttomietzinse und ist auf ein verzinstes Sparkonto bei einer Schweizerischen Bank abzusichern. Es besteht ebenfalls die Möglichkeit, die Sicherheitsleistung mit einer Versicherung z.B. Swisscaution, abzusichern.</p>
+              </x-accordion.item>
+
+              <x-accordion.item index="2" title="Verfügt Scala über einen barrierefreien Zugang?">
+                <p>Ja, das Gebäude hält die SIA 500 Normen ein und ist somit barrierefrei zugänglich.</p>
+              </x-accordion.item>
+
+              <x-accordion.item index="3" title="Was ist in den Betriebskosten (Nebenkosten) enthalten?">
+                <p>Der Mieter trägt zusätzlich zum Nettomietzins die auf sein Mietobjekt entfallenen Betriebskosten. Zu den Betriebskosten gehören u.A.:</p>
                 <ul>
-                  <li>Keine Reptilien- oder Exotenhaltung erlaubt.</li>
-                  <li>In Wohnungen kleiner als 60m² sind keine Tiere mit Ausnahmen von sehr kleinen Tieren (z.B. Fische, Hamster, Schildkröten o.ä.) erlaubt. Eine allgemeine Faustregel besagt, dass für Tiere, die nicht als besonders klein eingestuft werden, etwa 60 m² pro Tier vorgesehen werden sollten.</li>
-                  <li>Aquarienhaltung muss grundsätzlich angefragt werden, mit Angabe von Volumen und Gewicht.</li>
-                  <li>Anbau von Katzentüren muss beantragt werden und wird nur im Zusammenhang mit einer Tierhaltungsvereinbarung bewilligt.</li>
-                  <li>Keinen Anbau von Katzen-Treppen oder anderen Klettervorrichtungen an der Fassade erlaubt.</li>
+                  <li>Hauswartung, Service und Betrieb der Hauswartmaschinen, Miete oder Leasinggebühren von Hauswartungsmaschinen, Bereitstellung Notfalldienst</li>
+                  <li>Reinigung der allgemeinen zugänglichen Räume und Flächen, Periodische Containerreinigung</li>
+                  <li>Umgebungspflege sowie Reinigung und Unterhalt von der Mieterschaft zur Verfügung gestellten Anlagen/Bauten, u.s.w.</li>
+                  <li>Allgemeinstrom, Wasserverbrauch, Abwassergebühren</li>
+                  <li>Allgemeine Kehrricht-/Entsorgungsgebühren</li>
+                  <li>Grundgebühren für Kabel-TV, Radio und Glasfasernetz</li>
+                  <li>Die Verbrauchserfassung und den Abrechnungsservice für die Betriebskostenabrechnung</li>
+                  <li>Serviceabonnemente und Wartungsverträge für:
+                    <ul>
+                      <li>Aufzugsanlagen, Be- und Entlüftungsanlagen</li>
+                      <li>Brandmeldeanlage, Feuerlöschgeräte, Notbeleuchtung, Entrauchungsanlage</li>
+                      <li>Pumpen, Beleuchtungsanlage Umgebung, Ungezieferbekämpfung und Prävention</li>
+                      <li>Gegensprechanlagen</li>
+                      <li>Wasseraufbereitungs/-enthärtungsanlagen, Grundwasserpumpen</li>
+                      <li>Dach</li>
+                    </ul>
+                  </li>
+                  <li>Technische FM-Dienstleistungen / Betrieb und Wartung von:
+                    <ul>
+                      <li>Elektroanlagen und Installationen</li>
+                      <li>Beförderungsanlagen</li>
+                      <li>Heizungsanlagen</li>
+                    </ul>
+                  </li>
+                  <li>Betrieb und Wartung der Photovoltaikanlage</li>
+                  <li>Präventivspülungen der Kanalisation und anderen Leitungen</li>
+                  <li>Verwaltungshonorar für die Verwaltung und Abrechnung der Betriebskosten</li>
                 </ul>
-                <p>Es wird eine Tierhaltungsvereinbarung mit dem Mieter vereinbart.</p>
               </x-accordion.item>
-              
-              <x-accordion.item index="1" title="Gibt es eine Kaution und wie hoch ist sie?">
-                <p>Input ZIAG notwendig, Vorschlag GTV: Die Kaution beträgt zwei Bruttomietzinse und ist auf ein Sperrkonto bei der ….. einzuzahlen oder es besteht auch die Möglichkeit die Kaution mit der Versicherung z.B. FirstCaution (www.firstcaution.ch) abzusichern. In diesem Fall beträgt die Kaution drei Bruttomietzinse.</p>
-              </x-accordion.item>
-              
-              <x-accordion.item index="2" title="Verfügt Scala über einen schwellenlosen Zugang?">
-                <p>Input Architektin notwendig</p>
-              </x-accordion.item>
-              
-              <x-accordion.item index="3" title="Was ist in den Nebenkosten enthalten?">
-                <p>Input ZIAG notwendig</p>
-              </x-accordion.item>
-              
               <x-accordion.item index="4" title="Was kostet ein Parkplatz und ist dieser bereits in dem Mietzinspreis inbegriffen?">
-                <p>Der Mietzins für die Einstellhallenplätze ist nicht in dem Mietzinspreis inbegriffen und sie können nicht ausgesucht werden. Die Liegenschaft verfügt über Aussenparkplätzen nur für Besucher.</p>
+                <p>Der Mietzins für die Einstellhallenplätze ist nicht in dem Mietpreis inbegriffen und sie können nicht ausgesucht werden. Die Liegenschaft verfügt über Aussenparkplätze, stehen nur den Besuchern zur Verfügung.</p>
                 <ul>
-                  <li>Ein Einstellhallenplatz ohne Ladestation kostet CHF 220,- pro Monat.</li>
-                  <li>Ein Einstellhallenplatz mit Ladestation kostet CHF 235,- pro Monat.</li>
-                  <li>Ein Motorradparkplatz kostet CHF 70,- pro Monat.</li>
+                  <li>-	Alle Einstellhallenplätze kosten CHF 235.- pro Monat. Alle Parkplätze bis auf einen können mit einer Ladestation ausgerüstet werden. Die Miete der Ladestation beträgt zusätzlich CHF 15.- pro Monat.</li>
+                  <li>-	Ein Motorradparkplatz kostet CHF 70,- pro Monat.</li>
                 </ul>
               </x-accordion.item>
               
               <x-accordion.item index="5" title="Wie hoch sind die Räume?">
                 <p>2.40 Meter</p>
               </x-accordion.item>
-              
+
               <x-accordion.item index="6" title="Wie kann ich mich für eine Wohnung bewerben?">
                 <p>Senden Sie uns Ihre ausgefüllte Online-Bewerbung (wählen Sie dazu im Wohnungsangebot Ihre Wunschwohnung aus und klicken Sie auf «Bewerben»). Wir freuen uns sehr, Sie kennenzulernen.</p>
                 <p>Bitte beachten Sie, dass man sich ausschliesslich online auf die Wohnungen bewerben kann.</p>
@@ -56,14 +78,14 @@
               <x-accordion.item index="7" title="Welche Dokumente muss ich bei einer Wohnungsbewerbung einreichen?">
                 <p>Bewerben Sie sich auf eine Wohnung, werden Sie in unserem Online-Formular durch den Bewerbungsprozess geführt. Folgende Dokumente müssen als PDF-Datei in das Bewerbungsformular hochgeladen werden:</p>
                 <ul>
-                  <li>Aktuelle Auszüge aus dem Betreibungsregister welche (Input ZIAG notwendig, Vorschlag GTV) die letzten 3 Jahre als Zeitraum abdecken.</li>
+                  <li>Aktuelle Auszüge aus dem Betreibungsregister welche die letzten 3 Jahre als Zeitraum abdecken.</li>
                   <li>ID oder Pass-Kopie</li>
                   <li>Sollten Sie vom Ausland in die Schweiz ziehen, benötigen wir aber eine Kopie Ihrer Aufenthaltsbewilligung (Ausländerausweises) oder, falls Sie noch keine haben sollten, eine Kopie Ihres Passes.</li>
                 </ul>
               </x-accordion.item>
               
               <x-accordion.item index="8" title="Wie alt darf der Betreibungsregisterauszug sein?">
-                <p>Input ZIAG notwendig, Vorschlag GTV: Bei einer Wohnungsbewerbung führen wir eine automatische Bonitätsprüfung durch. Schlägt diese fehl, werden wir Sie auffordern, einen Betreibungsregisterauszug einzureichen. Da es sich um eine Momentaufnahme handelt, sollte der Auszug nicht älter als zwei bis maximal drei Monate sein.</p>
+                <p>Bei einer Wohnungsbewerbung bitten wir Sie, einen Betreibungsregisterauszug hochzuladen. Da es sich um eine Momentaufnahme handelt, sollte der Auszug nicht älter als zwei bis maximal drei Monate sein.</p>
               </x-accordion.item>
               
               <x-accordion.item index="9" title="Welche Unterlagen muss ich einreichen, wenn ich vom Ausland in die Schweiz einziehe?">
@@ -75,18 +97,19 @@
               </x-accordion.item>
               
               <x-accordion.item index="11" title="Wie kann ich mich für eine Wohnungsbesichtigung anmelden?">
-                <p>Die Möglichkeit einer Wohnungsbesichtigung hängt vom Fortschritt des Bauprozesses ab. Im Moment können wir sagen, dass bis Oktober 2025 keine Besichtigung möglich sein wird. Ab dem Zeitpunkt, wo Besichtigungen möglich sein werden, werden wir dies via online Anmeldung anbieten.</p>
+                <p>Die Möglichkeit einer Wohnungsbesichtigung hängt von Fortschritt der Bauprozesses ab. Im Moment können wir sagen, dass bis Oktober 2025 keine Besichtigung möglich sein wird. Ab dem Zeitpunkt, wo Besichtigungen möglich sein werden, werden wir dies via online Anmeldung anbieten.</p>
               </x-accordion.item>
               
               <x-accordion.item index="12" title="Erhalte ich vor dem Einzug Zugang zu meiner zukünftigen Wohnung, um diese auszumessen?">
-                <p>Input ZIAG notwendig, Vorschlag GTV: Dies ist in Absprache mit Ihrer Ansprechperson für Erstvermietung möglich. Bitte melden Sie sich hierfür mittels dem zugestellten Kontaktformular oder via E-Mail an.</p>
-                <p>PS: Für viele Wohnungen haben wir detaillierte Grundrisspläne, die wir Ihnen gerne zur Verfügung stellen. Bitte beachten Sie, dass ausführungsbedingte Änderungen und Anpassungen vorbehalten bleiben. Mehr unter: Disclaimer/Haftungsausschluss (Link!)</p>
+                <p>Wir stellen Ihnen den Grundrissplan, welcher heruntergeladen werden kann, in Massstab 1:100 für jede Wohnung zur Verfügung.</p>
+                <p>Bitte beachten Sie, dass ausführungsbedingte Änderungen und Anpassungen vorbehalten bleiben. Mehr unter: <a href="{{ route('page.disclaimer') }}" title="Disclaimer/Haftungsausschluss" class="underline underline-offset-2 decoration-1 hover:no-underline">Disclaimer/Haftungsausschluss</a></p>
               </x-accordion.item>
               
               <x-accordion.item index="13" title="Wie und wo reserviere ich für den Umzugstag eine Zeitspanne?">
-                <p>Input APLEONA notwendig, Vorschlag GTV: Hierfür werden Sie von Ihrer Kontaktperson aus der Bewirtschaftung kontaktiert und einen Termin vereinbart.</p>
+                <p>Die Bewirtschaftung wird die zukünftigen Mieterinnen und Mieter hinsichtlich konkretem Umzugstermin individuell kontaktieren.</p>
               </x-accordion.item>
               
+
             </x-accordion.wrapper>
           </div>
         </div>

@@ -19,10 +19,7 @@
       <span class="hidden lg:block">Aussen-<br>fläche m<sup>2</sup></span>
     </th>
     <th class="text-left">
-      Miete<br>Netto
-    </th>
-    <th class="text-left">
-      Neben-<br>kosten
+      Bruttomiete<br>inkl. Nebenkosten
     </th>
     <th class="text-center">
       <span class="block lg:hidden">Plan</span>

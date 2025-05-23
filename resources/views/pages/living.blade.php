@@ -8,11 +8,21 @@
         Wohnen
       </h1>
       <div class="md:grid md:grid-cols-12 md:gap-20 lg:gap-40 mt-20 lg:mt-40">
-        <div class="md:col-span-8">
-          <p><strong>Hell, komfortabel, funktional: Willkommen in SCALA! Mit geräumigen 1 Zimmer-Studios und 1.5 Zimmerwohnungen, stylischen 2.5 Zimmerwohnungen, gemütlichen 3.5 Zimmer-Appartements und grosszügigen 4.5 Zimmer-Familiennestern bietet SCALA für alle Lebensphasen das passende Design.</strong></p>
-          <p>Die überaus hellen, fantastisch besonnten 46 Mietwohnungen in SCALA präsentieren durchdachte Grundrisstypen, die ein komfortables und funktionales Wohnerlebnis sicherstellen. Das offene Raumkonzept für Wohnen, Essen und Kochen mit einer Unterteilung des Wohnraums in zwei Bereiche schafft Platz für Balkone und Loggien mit optimaler Süd- oder Westausrichtung.</p>
-          <p>Das Innendesign kombiniert ästhetische und zugleich langlebige Materialien wie Beton, Aluminium und Holz; zurückhaltende Farbtöne in Hellgrau, Blau und Grau mit Weiss wirken harmonisch und zeitlos. Hochwertige Eichenriemen wurden für die Bodenbeläge ausgewählt; attraktive Einbauelemente und integrierte Waschtürme erleichtern den Wohnalltag. In den offenen Küchen kommen erstklassige Geräte und Materialien zur Anwendung; die Bäder werden edel ausgestattet. Zu allen Wohnungen gehören Kellerabteile. Eigene Loggien, Balkone oder Terrassen bieten gute Privacy und schöne Ausblicke als Sonnenoasen inmitten der Stadt.</p>
-          <p>Zu SCALA gehören ausreichend Veloparkplätze und eine CO₂-bewusste Infrastruktur durch eine Photovoltaikanlage und E-Ladestationen für Elektroautos bei den 18 Tiefgaragenplätzen, die dazu gemietet werden können.</p>          
+        <div class="md:col-span-7">
+          <p><strong>Hell, komfortabel, funktional: Willkommen in SCALA! Mit geräumigen 1 Zimmer-Studios und 1.5 Zimmerwohnungen sowie stylischen und gemütlichen 2.5 bis 4.5 Zimmerwohnungen bietet SCALA für alle Lebensphasen das passende Design.</strong></p>
+          <p>Die hellen, gut besonnten 46 Mietwohnungen in SCALA präsentieren durchdachte Grundrisstypen, die ein komfortables und funktionales Wohnerlebnis sicherstellen. Das offene Raumkonzept für Wohnen, Essen und Kochen mit einer Unterteilung des Wohnraums in zwei Bereiche schafft Platz für Balkone und Loggien mit optimaler Süd- oder Westausrichtung.</p>
+          <p>Das Innendesign verwendet langlebige Materialien und die Farbtöne wirken harmonisch und zeitlos. Die Eichenholzböden tragen zu einer angenehmen Wohnatmosphäre bei und praktische Einbauelemente sowie integrierte Waschtürme erleichtern den Alltag. Die offenen Küchen sind mit hochwertigen Geräten ausgestattet, und die Bäder sind modern gestaltet. Zu allen Wohnungen gehören Kellerabteile. Eigene Loggien, Balkone oder Terrassen bieten gute Privacy und schöne Ausblicke als Sonnenoasen inmitten der Stadt.</p>
+          <p>Zu SCALA gehören ausreichend Veloparkplätze und eine CO₂-bewusste Infrastruktur durch eine Photovoltaikanlage und E-Ladestationen für Elektroautos bei den 18 Tiefgaragenplätzen, die dazu gemietet werden können.</p>
+        </div>
+        <div class="md:col-span-5 flex flex-col gap-y-20 lg:gap-y-30 md:mt-7">
+          <x-media.picture
+            image="scala-hoenggerstrasse-bad"
+            alt="Bad">
+          </x-media.picture>
+          <x-media.picture
+            image="scala-hoenggerstrasse-balkon"
+            alt="Bad">
+          </x-media.picture>
         </div>
       </div>
     </div>

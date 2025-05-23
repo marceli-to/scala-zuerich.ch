@@ -39,9 +39,6 @@
                 <x-apartments.table.tcell>
                   {{ \App\Helpers\AppHelper::apartmentCostsToDecimal($apartment['rentalgross']) }}
                 </x-apartments.table.tcell>
-                <x-apartments.table.tcell>
-                  {{ \App\Helpers\AppHelper::apartmentCostsToDecimal($apartment['incidentals']) }}
-                </x-apartments.table.tcell>
                 <x-apartments.table.tcell class="!text-center">
                   <a 
                     href="/media/downloads/scala-hoenggerstrasse-{{ $apartment['title'] }}.pdf" 

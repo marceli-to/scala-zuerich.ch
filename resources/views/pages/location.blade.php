@@ -17,8 +17,7 @@
           </p>
           <p>Wipkingen, ein dynamisches Trendquartier, erstreckt sich vom Waldrand des Waidbergs hinab zur Limmat unterhalb der Hardbrücke. Im Sommer belebt die Badi Unterer Letten das Quartier, während ein vielfältiges Einkaufsangebot immer wieder Neues entdecken lässt.</p>
           <p>Samstags und dienstags trifft man sich auf dem Markt am Röschibachplatz, wo im Sommer auch ein Open-Air-Kino stattfindet. Das Limmatufer sowie Käfer- und Hönggerberg laden zu Spaziergängen und Joggingrunden ein. Neben Flussbädern gibt es vier Spielplätze, drei Parks sowie Fitness- und Yoga-Studios.</p>
-          <p>Die nahe ETH am Hönggerberg bringt junges, internationales Flair und einen hohen Bildungsstandard ins Quartier.</p>
-          <table class="w-full">
+          <table class="w-full mt-16 lg:mt-20">
             <thead>
               <tr>
                 <th>Distanzen</th>
@@ -94,13 +93,8 @@
               </tr>
             </tbody>
           </table>                
-          <p>8 Spazierminuten bringen einen in den hippen Kreis 5 mit seiner immensen Auswahl an Restaurants, Bars, Theatern und Geschäften.</p>
         </div>
         <div class="md:col-span-5 flex flex-col gap-y-20 lg:gap-y-30 md:mt-7">
-          <x-media.picture
-            image="scala-hoenggerstrasse-bad"
-            alt="Bad">
-          </x-media.picture>
           <x-media.picture
             image="scala-hoenggerstrasse-wohnen-essen-2"
             alt="Wohnen/Essen">
