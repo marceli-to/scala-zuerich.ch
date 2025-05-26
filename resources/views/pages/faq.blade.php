@@ -61,8 +61,8 @@
               <x-accordion.item index="4" title="Was kostet ein Parkplatz und ist dieser bereits in dem Mietzinspreis inbegriffen?">
                 <p>Der Mietzins für die Einstellhallenplätze ist nicht in dem Mietpreis inbegriffen und sie können nicht ausgesucht werden. Die Liegenschaft verfügt über Aussenparkplätze, welche nur den Besuchern zur verfügen stehen.</p>
                 <ul>
-                  <li>Alle Einstellhallenplätze kosten CHF 235.- pro Monat. Alle Parkplätze bis auf einen können mit einer Ladestation ausgerüstet werden. Die Miete der Ladestation beträgt zusätzlich CHF 15.- pro Monat.</li>
-                  <li>Ein Motorradparkplatz kostet CHF 70,- pro Monat.</li>
+                  <li>Alle Einstellhallenplätze kosten CHF 250.- pro Monat. Alle Parkplätze bis auf einen können zuzüglich mit einer Ladestation ausgerüstet werden.</li>
+                  <li>Ein Motorradparkplatz kostet CHF 70.- pro Monat.</li>
                 </ul>
               </x-accordion.item>
               
