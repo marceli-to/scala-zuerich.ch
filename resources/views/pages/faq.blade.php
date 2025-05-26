@@ -59,10 +59,10 @@
                 </ul>
               </x-accordion.item>
               <x-accordion.item index="4" title="Was kostet ein Parkplatz und ist dieser bereits in dem Mietzinspreis inbegriffen?">
-                <p>Der Mietzins für die Einstellhallenplätze ist nicht in dem Mietpreis inbegriffen und sie können nicht ausgesucht werden. Die Liegenschaft verfügt über Aussenparkplätze, stehen nur den Besuchern zur Verfügung.</p>
+                <p>Der Mietzins für die Einstellhallenplätze ist nicht in dem Mietpreis inbegriffen und sie können nicht ausgesucht werden. Die Liegenschaft verfügt über Aussenparkplätze, welche nur den Besuchern zur verfügen stehen.</p>
                 <ul>
-                  <li>-	Alle Einstellhallenplätze kosten CHF 235.- pro Monat. Alle Parkplätze bis auf einen können mit einer Ladestation ausgerüstet werden. Die Miete der Ladestation beträgt zusätzlich CHF 15.- pro Monat.</li>
-                  <li>-	Ein Motorradparkplatz kostet CHF 70,- pro Monat.</li>
+                  <li>Alle Einstellhallenplätze kosten CHF 235.- pro Monat. Alle Parkplätze bis auf einen können mit einer Ladestation ausgerüstet werden. Die Miete der Ladestation beträgt zusätzlich CHF 15.- pro Monat.</li>
+                  <li>Ein Motorradparkplatz kostet CHF 70,- pro Monat.</li>
                 </ul>
               </x-accordion.item>
               
@@ -76,7 +76,7 @@
               </x-accordion.item>
               
               <x-accordion.item index="7" title="Welche Dokumente muss ich bei einer Wohnungsbewerbung einreichen?">
-                <p>Bewerben Sie sich auf eine Wohnung, werden Sie in unserem Online-Formular durch den Bewerbungsprozess geführt. Folgende Dokumente müssen als PDF-Datei in das Bewerbungsformular hochgeladen werden:</p>
+                <p>Wenn Sie sich auf eine Wohnung bewerben, werden Sie in unserem Online-Formular durch den Bewerbungsprozess geführt. Folgende Dokumente müssen als PDF-Datei in das Bewerbungsformular hochgeladen werden:</p>
                 <ul>
                   <li>Aktuelle Auszüge aus dem Betreibungsregister welche die letzten 3 Jahre als Zeitraum abdecken.</li>
                   <li>ID oder Pass-Kopie</li>

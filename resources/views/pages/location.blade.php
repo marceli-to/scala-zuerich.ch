@@ -96,8 +96,8 @@
         </div>
         <div class="md:col-span-5 flex flex-col gap-y-20 lg:gap-y-30 md:mt-7">
           <x-media.picture
-            image="scala-hoenggerstrasse-wohnen-essen-2"
-            alt="Wohnen/Essen">
+            image="scala-hoenggerstrasse-loggia"
+            alt="Loggia">
           </x-media.picture>
         </div>
       </div>

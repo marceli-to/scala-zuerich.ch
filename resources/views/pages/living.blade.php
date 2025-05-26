@@ -190,7 +190,7 @@
             <x-accordion.item index="18" title="Keller-/Nebenräume">
               <ul>
                 <li>Jede Wohnung hat ein eigenes Kellerabteil</li>
-                <li>Kleinwohnung mind. 5m², andere Wohnungen mind. 8m²</li>
+                <li>Kleinwohnungen mind. 5m², andere Wohnungen mind. 8m²</li>
                 <li>Jedes Kellerabteil verfügt über eine Steckdose; Abrechnung individuell über Wohnungszähler</li>
                 <li>Kellerabteiltrennwände mit Holzlattenrost</li>
               </ul>

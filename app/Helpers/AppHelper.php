@@ -20,6 +20,6 @@ class AppHelper
 
   public static function apartmentCostsToDecimal($cost)
   {
-    return number_format($cost, 2, '.', '');
+    return number_format($cost, 2, '.', "'");
   }
 }

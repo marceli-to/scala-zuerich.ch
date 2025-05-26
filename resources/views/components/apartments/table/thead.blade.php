@@ -16,10 +16,13 @@
     </th>
     <th class="text-left">
       <span class="block lg:hidden">Aussen<br>m<sup>2</sup></span>
-      <span class="hidden lg:block">Aussen-<br>fläche m<sup>2</sup></span>
+      <span class="hidden lg:block">Aussen-<br>fläche&nbsp;m<sup>2</sup></span>
     </th>
     <th class="text-left">
-      Bruttomiete<br>inkl. Nebenkosten
+      Bruttomiete<br>inkl. NK
+    </th>
+    <th class="text-left">
+      NK
     </th>
     <th class="text-center">
       <span class="block lg:hidden">Plan</span>

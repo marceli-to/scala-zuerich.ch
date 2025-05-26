@@ -42,8 +42,12 @@ strong {
   @apply max-w-3xl;
 }
 
-p {
+p, p + ul {
   @apply mb-16 lg:mb-20;
+}
+
+p + ul {
+  @apply !mt-16 lg:!mt-20;
 }
 
 p:last-of-type {
