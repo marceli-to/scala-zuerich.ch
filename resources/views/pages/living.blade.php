@@ -78,7 +78,7 @@
             <x-accordion.item index="5" title="Elektrokomponenten/Multimedia">
               <ul>
                 <li>Elektroanschlüsse gemäss Elektroplan des Fachplaners</li>
-                <li>Schalter und Dosen Serie Feller Endizio.liv</li>
+                <li>Schalter und Dosen Serie Feller Edicio.liv</li>
                 <li>Glasfaseranschlüsse in allen Wohn- und Schlafzimmern</li>
                 <li>Gegensprechanlage</li>
               </ul>
