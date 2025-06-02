@@ -13,6 +13,7 @@ $bgColor = $currentRoute == 'page.imprint' || $currentRoute == 'page.privacy' ||
 <meta property="og:description" content="@seo_description">
 <meta property="og:url" content="{{ url()->current()}} ">
 <meta property="og:site_name" content="@seo_title">
+<meta property="og:image" content="https://www.scala-zuerich.ch/opengraph.jpg">
 <meta name="msapplication-TileColor" content="#ffffff">
 <meta name="theme-color" content="#ffffff">
 <meta name="csrf-token" content="{{ csrf_token() }}">
@@ -20,7 +21,7 @@ $bgColor = $currentRoute == 'page.imprint' || $currentRoute == 'page.privacy' ||
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 <link rel="manifest" href="/site.webmanifest">
-<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#021e24">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#000000">
 @vite('resources/css/app.css')
 @livewireStyles
 </head>
