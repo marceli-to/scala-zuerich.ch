@@ -1,5 +1,6 @@
 @extends('app')
 @section('seo_title', 'Angebot')
+@section('seo_description', 'Ab April 2026: Erstvermietung von 46 stilvollen Mietwohnungen in SCALA Zürich-Wipkingen. Zentrale, sonnige Hanglage, durchdachte Architektur, Balkone, Grünflächen und nachhaltiges SNBS-Bauen. 1.5- bis 4.5-Zimmer, ideal für urbane Lebensstile.')
 @section('content')
 <x-layout.section>
   <x-layout.inner>

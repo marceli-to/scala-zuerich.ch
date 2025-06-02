@@ -1,5 +1,6 @@
 @extends('app')
 @section('seo_title', 'Wohnen')
+@section('seo_description', 'SCALA Zürich-Wipkingen bietet 46 helle Mietwohnungen (1–4.5 Zimmer) mit durchdachtem Grundriss, Eichenparkett, modernen Küchen, Loggien/Balkonen & viel Komfort. Nachhaltig mit PV-Anlage, E-Ladestationen & Veloparkplätzen. Ideal für urbane, stilbewusste Wohnansprüche.')
 @section('content')
 <x-layout.section class="bg-mist">
   <x-layout.inner>

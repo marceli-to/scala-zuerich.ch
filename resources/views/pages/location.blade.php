@@ -1,5 +1,6 @@
 @extends('app')
 @section('seo_title', 'Lage')
+@section('seo_description', 'SCALA in Zürich-Wipkingen überzeugt durch beste Lage: nahe ÖV, Flughafen, Röschibachplatz und Limmat. Trendquartier mit Märkten, Cafés, Parks, Spielplätzen, Badi, Fitness & Natur. Perfekt vernetzt, urban und naturnah – ideal für moderne Stadtmenschen.')
 @section('content')
 <x-layout.section class="bg-mist">
   <x-layout.inner>

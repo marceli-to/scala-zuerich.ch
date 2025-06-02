@@ -1,5 +1,6 @@
 @extends('app')
 @section('seo_title', 'FAQ')
+@section('seo_description', 'Senden Sie uns Ihre ausgefüllte Online-Bewerbung. Wir freuen uns sehr, Sie kennenzulernen.')
 @section('content')
 <x-layout.section class="bg-mist">
   <x-layout.inner>
