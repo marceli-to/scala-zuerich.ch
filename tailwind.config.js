@@ -33,7 +33,8 @@ export default {
         'cloud': '#c4cfd4', // footer
         'mist': '#e7eced', // background
         'ember': '#c6413d', // iso, occupied
-        'sprout': '#b0c270' // iso, available
+        'sprout': '#b0c270', // iso, available
+        'rubex': '#d4000a',
       },
 
       borderWidth: {
