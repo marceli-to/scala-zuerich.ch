@@ -101,8 +101,7 @@
               </x-accordion.item>
               
               <x-accordion.item index="11" title="Wie kann ich mich für eine Wohnungsbesichtigung anmelden?">
-                <p>Die Möglichkeit einer Wohnungsbesichtigung hängt von Fortschritt der Bauprozesses ab.</p>
-                <p><strong>Der Zutritt zur Baustelle ist aus Sicherheitsgründen zu jeder Zeit untersagt.</strong> Am <strong>15.11.2025</strong> laden wir Sie herzlich ein, unsere <strong>Musterwohnung im Rahmen eines Tags der offenen Tür</strong> zu besichtigen.<strong> Alle anderen Bereiche der Baustelle dürfen nicht betreten werden.</strong></p>
+                <p>Die Möglichkeit einer Wohnungsbesichtigung hängt von Fortschritt der Bauprozesses ab. <strong>Der Zutritt zur Baustelle ist aus Sicherheitsgründen zu jeder Zeit untersagt.</strong> Am <strong>15.11.2025</strong> laden wir Sie herzlich ein, unsere <strong>Musterwohnung im Rahmen eines Tags der offenen Tür</strong> zu besichtigen.<strong> Alle anderen Bereiche der Baustelle dürfen nicht betreten werden.</strong></p>
 
               </x-accordion.item>
               
