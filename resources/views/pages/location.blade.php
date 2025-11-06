@@ -9,13 +9,13 @@
         Lage
       </h1>
       <h2>
-        Wohnen und Leben im Herzen von Wipkingen,&nbsp;Kreis 10
+        Wohnen und Leben im Herzen von Wipkingen an der Hönggerstrasse 146/148 im Kreis 10
       </h2>
       <div class="flex flex-col gap-y-20 md:grid md:grid-cols-12 md:gap-20 lg:gap-40 mt-20 lg:mt-40">
         <div class="md:col-span-7">
           <x-alert />
           <p>
-            <strong>Wer SCALA bewohnt, ist perfekt vernetzt. Von der Hönggerstrasse ist man rasch am Wipkingerplatz und mit der Linie 13 am Escher-Wyss-Platz, wo diverse Tram- und Buslinien in alle Zürcher Stadtteile führen. Der nahe Röschibachplatz bietet Supermärkte, Bioladen, Apotheken, Restaurants, Cafés und den Bahnhof Wipkingen mit direktem Anschluss zum Flughafen Zürich.</strong>
+            <strong>Wer SCALA bewohnt, ist perfekt vernetzt. Von der Hönggerstrasse 146/148 ist man rasch am Wipkingerplatz und mit der Linie 13 am Escher-Wyss-Platz, wo diverse Tram- und Buslinien in alle Zürcher Stadtteile führen. Der nahe Röschibachplatz bietet Supermärkte, Bioladen, Apotheken, Restaurants, Cafés und den Bahnhof Wipkingen mit direktem Anschluss zum Flughafen Zürich.</strong>
           </p>
           <p>Wipkingen, ein dynamisches Trendquartier, erstreckt sich vom Waldrand des Waidbergs hinab zur Limmat unterhalb der Hardbrücke. Im Sommer belebt die Badi Unterer Letten das Quartier, während ein vielfältiges Einkaufsangebot immer wieder Neues entdecken lässt.</p>
           <p>Samstags und dienstags trifft man sich auf dem Markt am Röschibachplatz, wo im Sommer auch ein Open-Air-Kino stattfindet. Das Limmatufer sowie Käfer- und Hönggerberg laden zu Spaziergängen und Joggingrunden ein. Neben Flussbädern gibt es vier Spielplätze, drei Parks sowie Fitness- und Yoga-Studios.</p>

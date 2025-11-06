@@ -5,13 +5,13 @@
   <x-layout.inner>
     <div>
       <h1 class="mb-5 lg:mb-10">Stilvoll Wohnen mit Weitblick in Zürich-Wipkingen</h1>
-      <h2>Exklusive Mietwohnungen an sonniger Hanglage mit urbanem Flair</h2>
+      <h2>Exklusive Mietwohnungen an sonniger Hanglage an der Hönggerstrasse&nbsp;146/148 mit&nbsp;urbanem Flair</h2>
       <div class="flex flex-col gap-y-20 md:grid md:grid-cols-12 md:gap-20 lg:gap-40 mt-20 lg:mt-40">
         <div class="md:col-span-7">
           <x-alert />
           <h3>Erstvermietung ab 1. April 2026</h3>
           <p>
-            <strong>An sonniger und zentraler Hanglage an der Hönggerstrasse 146/148 im begehrten Zürich Wipkingen entsteht ein stilvolles Wohngebäude mit 46 lichtdurchfluteten Mietwohnungen.</strong>
+            <strong>An sonniger und zentraler Hanglage an der Hönggerstrasse 146/148 im begehrten Zürich-Wipkingen entsteht ein stilvolles Wohngebäude mit 46 lichtdurchfluteten Mietwohnungen.</strong>
           </p>
           <p>Wie eine elegante Treppe in den Himmel fügt sich SCALA in die sonnige Hanglage von Zürich-Wipkingen ein. Das abgestufte Wohngebäude mit 46 Mietwohnungen vereint stilvolle Architektur und durchdachte Privatsphäre. Loggien und Balkone bieten geschützte Rückzugsorte, während eine Grünfläche das Gebäude umfliesst. Ein gemeinschaftlicher Platz lädt zum Verweilen ein, zwei Hauseingänge sorgen für optimale Verkehrsanbindung.</p>
           <p>Die Architektur setzt auf raffinierte Ausblicke und maximalen Lichteinfall: Die gestaffelte Bauweise ermöglicht Sonneneinstrahlung zu jeder Tageszeit. Vertikal gewellte Eternitplatten verleihen der Fassade eine weiche, vorhangartige Struktur. Mit diversen Grundrisstypen und barrierefreien 1.5- bis 4.5-Zimmerwohnungen bietet SCALA vielseitigen Wohnraum.</p>
