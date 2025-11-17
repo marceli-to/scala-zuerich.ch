@@ -8,9 +8,6 @@
       <h1 class="mb-5 lg:mb-10">FAQ</h1>
       <div class="md:grid md:grid-cols-12 md:gap-20 lg:gap-40 mt-20 lg:mt-40">
         <div class="md:col-span-8">
-          <x-alert class="!mb-0" />
-        </div>
-        <div class="md:col-span-8">
           <p><strong>Bewerbungen:</strong> Senden Sie uns Ihre ausgefüllte Online-Bewerbung (wählen Sie dazu im <a href="{{ route('page.offer') }}" title="Wohnungsangebot" class="underline underline-offset-2 decoration-1 hover:no-underline">Wohnungsangebot</a> Ihre Wunschwohnung aus und klicken Sie auf «Bewerben»). Wir freuen uns sehr, Sie kennenzulernen.</p>
           <p>Bitte beachten Sie, dass man sich ausschliesslich online auf die Wohnungen bewerben kann.</p>
           <div class="mt-20 lg:mt-40">

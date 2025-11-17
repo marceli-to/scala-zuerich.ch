@@ -8,7 +8,7 @@
       <h2>Exklusive Mietwohnungen an sonniger Hanglage an der Hönggerstrasse&nbsp;146/148 mit&nbsp;urbanem Flair</h2>
       <div class="flex flex-col gap-y-20 md:grid md:grid-cols-12 md:gap-20 lg:gap-40 mt-20 lg:mt-40">
         <div class="md:col-span-7">
-          <x-alert />
+          
           <h3>Erstvermietung ab 1. April 2026</h3>
           <p>
             <strong>An sonniger und zentraler Hanglage an der Hönggerstrasse 146/148 im begehrten Zürich-Wipkingen entsteht ein stilvolles Wohngebäude mit 46 lichtdurchfluteten Mietwohnungen.</strong>
