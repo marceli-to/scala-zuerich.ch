@@ -25,3 +25,4 @@ $image = $images[$currentRoute] ?? null;
   <x-menu.button />
   <x-menu.wrapper />
 </header>
+<x-popup />
